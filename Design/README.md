@@ -1,13 +1,6 @@
-# Design
+# Behavior Diagrams
 
-## High Level Design 
+## Added the implememted Behavior diagrams here. 
+* [Activity diagram]()
+* [Use case diagram]()
 
---- TBD Structural and Behavioural Diagram
-![https://app.diagrams.net/]
-![HighLevelBehaviouralDiagram](Link to Pic)
-
-## Low Level Design 
-
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
