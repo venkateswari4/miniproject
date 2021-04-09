@@ -13,11 +13,15 @@ display:Displays all the user details.
 search:Will be able to search for user information.
 withdraw:Users will be able to withdraw their amount.
 ## Defining Our System
-The system will be able to maintain and manage the user bank information in easy way.
+The system will be able to maintain and manage the user bank information in easy way.It allows an easy way of handling the opeartions.
     
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
-
+## Stregths
+*Perform tendious task easliy and automate the operations.
+*Requires less effort.
+*Easy to use.
+## Weakness
+*Limited scope of services.Lack of personal banker relationship.
 # 4W&#39;s and 1&#39;H
 
 ## Who:
