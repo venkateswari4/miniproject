@@ -25,8 +25,7 @@ The system will be able to maintain and manage the user bank information in easy
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-
-**TBD**
+The project can be used almost by all.All the users can use the project  
 
 ## What:
 
