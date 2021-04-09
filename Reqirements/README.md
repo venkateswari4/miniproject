@@ -23,6 +23,11 @@ The system will be able to maintain and manage the user bank information in easy
 ## Weakness
 *Limited scope of services.\
 *Lack of personal banker relationship.
+## Opportunities
+ *In banking systems\
+ *In finance
+## Threats
+  *Disclosing the data about account details to others.
 # 4W&#39;s and 1&#39;H
 
 ## Who:
