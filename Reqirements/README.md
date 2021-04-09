@@ -7,9 +7,13 @@
 ## Cost and Features
 As far as the project is well built and all the requirements met the cost can be varied according to the market.
 ## Features
-
-
+accept : Will be able to accept the initial user details.
+deposit:Users will be able to deposit their amount
+display:Displays all the user details.
+search:Will be able to search for user information.
+withdraw:Users will be able to withdraw their amount.
 ## Defining Our System
+
     
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
