@@ -13,7 +13,7 @@ display:Displays all the user details.
 search:Will be able to search for user information.
 withdraw:Users will be able to withdraw their amount.
 ## Defining Our System
-
+The system will be able to maintain and manage the user bank information in easy way.
     
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
