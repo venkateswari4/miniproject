@@ -1,12 +1,11 @@
 # Requirements
 ## Introduction
- An application which allows 
+ Banking application allows the users to create their account and application will be able to allow the users to deposit the money and withdraw the money and also it displays all the users.It is well designed with constraints. 
 
 ## Research
-![Description](Link to Pic)
--- Content 
+  The application tries to automate the process and generate quicker resopnses.
 ## Cost and Features
-![Description](Link to Pic)
+
 -- Content 
 ## Defining Our System
     -- TBD
