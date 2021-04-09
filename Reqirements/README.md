@@ -5,7 +5,10 @@
 ## Research
   The application tries to automate the process and generate quicker resopnses.
 ## Cost and Features
-As far as the project is well built and all the requirements met the cost can be varied according to the market. The features include depositing and withdrawing amount easily.
+As far as the project is well built and all the requirements met the cost can be varied according to the market.
+## Features
+
+
 ## Defining Our System
     
 ## SWOT ANALYSIS
