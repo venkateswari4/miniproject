@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- --- TBD 
+ An application which allows 
 
 ## Research
 ![Description](Link to Pic)
