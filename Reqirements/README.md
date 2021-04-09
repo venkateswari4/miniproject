@@ -7,11 +7,11 @@
 ## Cost and Features
 As far as the project is well built and all the requirements met the cost can be varied according to the market.
 ## Features
-accept : Will be able to accept the initial user details.\
-deposit:Users will be able to deposit their amount.\
-display:Displays all the user details.\
-search:Will be able to search for user information.\
-withdraw:Users will be able to withdraw their amount.
+*accept : Will be able to accept the initial user details.\
+*deposit:Users will be able to deposit their amount.\
+*display:Displays all the user details.\
+*search:Will be able to search for user information.\
+*withdraw:Users will be able to withdraw their amount.
 ## Defining Our System
 The system will be able to maintain and manage the user bank information in easy way.It allows an easy way of handling the opeartions.
     
@@ -26,15 +26,13 @@ The system will be able to maintain and manage the user bank information in easy
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-The project can be used almost by all.All the users can use the project  
+The project can be used almost by all.All the users can use the project to easily deposit and withdraw the money or check their account.
 
 ## What:
-
-**TBD**
+The operations related to deposting,withdrawing,checking can be performed.
 
 ## When:
 
-**TBD**
 
 ## Where:
 
