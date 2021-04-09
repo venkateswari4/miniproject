@@ -32,22 +32,30 @@ The project can be used almost by all.All the users can use the project to easil
 The operations related to deposting,withdrawing,checking can be performed.
 
 ## When:
-
+The project can be used at the time to create and manage the bank account.
 
 ## Where:
-
-**TBD**
+In all the domains it can be used. As the project is portable and user-friendly, it can be easily implemented on the mobile systems and finance companies. It should overcome all the drawbacks of the Old existing system and most important of all meet the user requirements.
 
 ## How:
-
-**TBD**
+It provides a way to meet the requirements of the user so as to build an effective and efficient system.
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
-
+|      ID          |Description                          |Status                         |
+|----------------|-------------------------------|-----------------------------|
+|HL01|Windows/Linux OS       |Implemented            |
+|HL02|Visual Studio(C Language)           |Implemented|
+|HL04|gcc compiler|Implemented|
+|HL05|Hard Disk(2GB)|Implemented|
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+|      ID          |Description                          |Status                         |
+|----------------|-------------------------------|-----------------------------|
+|LL01| Using accept function to accept the user information        |Implemented            |
+|LL022|Using deposit to deposit the money            |Implemented|
+|LL03|using display to display the user deatils   |Implemented|
+|LL04|Using search to identify user record. |Implemented|
+|LL05|Using withdraw to withdraw the amount |Implemented|
+
+
