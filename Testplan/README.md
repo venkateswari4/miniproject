@@ -12,6 +12,8 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  L_01       |Checking accept function is accepting users information|user details|accept the details|accept the details|Requirement based |
+|  L_02       |Checking deposit method is able to update balance|amount to be deposited|updated balance|updated balance|Scenario based    |
+|  L_03       |checking withdraw method display insufficient balance if balance is low| amount to withdraw|low balance|low balance|Boundary based    |
+|  L_04       |search for record not present|No information displayed|user id|No information displayed|No information displayed|Boundary based|
+|  L-05       |checking withdraw method is able to withdraw for sufficient balance|amount to be withdrawn|updated balance|updated balance|Scenario based    |
