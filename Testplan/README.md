@@ -17,3 +17,5 @@
 |  L_03       |checking withdraw method display insufficient balance if balance is low| amount to withdraw|low balance|low balance|Boundary based    |
 |  L_04       |search for record not present|No information displayed|user id|No information displayed|No information displayed|Boundary based|
 |  L-05       |checking withdraw method is able to withdraw for sufficient balance|amount to be withdrawn|updated balance|updated balance|Scenario based    |
+|  L_06       |search for record present|information displayed|user id|information displayed|information displayed|Scenario based|
+|  L_07       |display the users|information displayed|choosing display option|information displayed|information displayed|Scenario based|
