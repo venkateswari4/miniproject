@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
 #include<stdio.h>
 #include "bank.h"
 /**
@@ -91,5 +90,5 @@ int main()
         }
     }
     while (choice != 0);
-    return 0;
+return 0;
 }
