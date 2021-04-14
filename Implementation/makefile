@@ -1,15 +1,46 @@
-#comments
-all.exe:main.c  accept.c deposit.c display.c search.c withdraw.c 
-	gcc main.c accept.c deposit.c display.c search.c withdraw.c -o all.exe
+PROJ_NAME = bank
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-run:all.exe 
-	all.exe
+BUILD_DIR = Build
 
-test.exe:testbank.c  accept.c deposit.c display.c search.c withdraw.c unity/unity.c 
-	gcc -I unity testbank.c accept.c deposit.c display.c search.c withdraw.c unity/unity.c -o test.exe
+SRC = accept.c deposit.c display.c search.c withdraw.c
 
-test:test.exe
-	test.exe
+TEST_SRC = testbank.c\
+unity/unity.c
+
+INC = -Iunity
+
+#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
+ifdef OS
+   RM = rm -rf
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = del /q
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
+# Makefile will not run target command if the name with file already exists. To override, use .PHONY
+.PHONY : all test run clean 
+
+all:$(BUILD_DIR)
+	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
+run: all
+	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
+test: $(SRC) $(TEST_SRC)
+	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
 
 clean:
-	rm -f *.exe
+	$(RM) $(BUILD_DIR)/*
+	 
+	
+	
